@@ -16,9 +16,11 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Styling with Tailwind CSS
+
+This project uses Tailwind CSS v4. Its PostCSS plugin is configured in `postcss.config.mjs`, and Tailwind is imported from `src/app/globals.css`. Add utility classes to an element's `className` to adjust its layout, spacing, colors, and responsive styles.
 
 ## Learn More
 
