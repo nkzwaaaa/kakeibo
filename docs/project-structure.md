@@ -146,7 +146,7 @@ kakeibo/
 ├── postcss.config.mjs
 ├── tsconfig.json
 ├── README.md
-└── docker-compose.yml
+└── compose.yaml
 ```
 
 ※これは目標構成の例であり、すべてのファイルを初期段階で作成する必要はない。Next.js、Tailwind CSS、Prismaの採用バージョンによって設定ファイル名や配置が異なる場合がある。

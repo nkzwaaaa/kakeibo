@@ -139,7 +139,7 @@ Prismaのメジャーバージョンにより設定方法が異なるため、�
 
 - Node.js：採用するNext.jsの要件に適合するLTS版
 - パッケージマネージャー：npm
-- DB：PostgreSQL（ローカルではDockerを利用する案）
+- DB：PostgreSQL（ローカルではDocker Composeを利用）
 - エディタ：VS Code
 - バージョン管理：Git
 - リモートリポジトリ：GitHub
